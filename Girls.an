@@ -1,0 +1,53 @@
+
+{
+
+	"viewStartMs":"-9.6385822357383",
+	"symbol_stage":{
+		"dummyStageParentWidth":"631px",
+		"dummyStageParentHeight":"969px",
+		"defaultStageParentHeight":"969px",
+		"element_${_HeadHigh}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"timelineColor":"0x00a096"},
+		"element_${_OpenEyesHigh}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"timelineColor":"0x91c767"},
+		"defaultStageParentWidth":"631px",
+		"element_${_ClosedEyesHigh}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"timelineColor":"0x50bd82"},
+		"element_${_Stage}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"timelineColor":"0xeedf79"},
+		"element_${_BodyHigh}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"timelineColor":"0x00bda4"}},
+	"CompZoomFactor":"100",
+	"StageZoomFactor":"125",
+	"pixelsPerMs":"0.51874849202",
+	"ModelData":"{\
+\"stage\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"Preloader\": {\
+   \"timelines\": {\
+\
+   }},\
+\"Down-level\": {\
+   \"timelines\": {\
+\
+   }}\
+}",
+	"usedBOM":"false",
+	"nextElementColorIndex":"6",
+	"stage-Default Timeline_playhead_ms":"0",
+	"pref__general__FilterNonAnimatedElements":"false",
+	"HTMLFileName":"Girls.html",
+	"viewStartY":"0"}

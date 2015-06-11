@@ -1,0 +1,462 @@
+html, body, div, span, p, a, del, em, img, ol, ul, li, fieldset, form, label {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+@media only screen 
+and (max-device-width : 768px) 
+and (orientation : portrait) {
+	 
+	 #intromobile {
+	color:red; 
+	font-weight:bold;
+	} }
+
+
+nav{
+   background: #333;
+    width: 100%;
+    z-index: 8675309;
+	font:inherit;
+	border-top:2px solid black;
+}
+nav ul {
+	margin-left:auto;
+	margin-right:auto;
+	width: 50%;
+}
+
+
+nav ul li a {
+    float: left;
+    padding: 15px;
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li a:hover{
+background: #03C;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+html, body {
+	line-height: 1;
+	min-height:100%;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+body {
+	background: #eeeeee;
+	background: -webkit-linear-gradient(top, #eeeeee, #cccccc 100%);
+	background: -moz-linear-gradient(top, #eeeeee, #cccccc 100%);
+	background: -o-linear-gradient(top, #eeeeee, #cccccc 100%);
+	background: -ms-linear-gradient(top, #eeeeee, #cccccc 100%);
+	background: linear-gradient(top, #eeeeee, #cccccc 100%);
+	background-attachment:fixed;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+p {
+	margin:1em 0;
+	line-height:1.1em;
+}
+
+q {
+	font-style:italic;
+	color:#333;
+}
+
+h1 {
+	font-size:2.91em;
+	margin:0;
+}
+
+h1 > small {
+	text-align:right;
+	display:inline-block;
+	font-size:.71em;
+	text-indent:15em;
+	color:#444;
+}
+
+h2 {
+	color:inherit;
+	font-size:1.91em;
+	margin:2em 0 1em 0;
+}
+
+h2:first-child {margin-top:0;}
+
+h3 {
+	color:#333;
+	font-size:1.41em;
+	margin:1em 0;
+}
+
+h4 {
+	color:#444;
+	font-size:1.11em;
+	margin:1em 0;
+}
+
+#progress {
+	height:2%;
+	background:#444;
+	bottom:0;
+	z-index:200;
+}
+
+#scrollbar {
+	position:fixed;
+	right:2px;
+	height:50px;
+	width:6px;
+	background:#444;
+	background:rgba(0,0,0,0.6);
+	border:1px solid rgba(255,255,255,0.6);
+	z-index:300;
+	border-radius:3px;
+}
+
+.captionend{
+box-sizing: border-box;
+    font-size: 8em;
+    padding: 80px;
+    text-align: center;
+    top: 0;
+    transform-origin: 0 0 0;
+}
+
+.caption{
+background: #FF0;
+font-size: 24px;
+border: 3px solid #333;
+padding: 25px;	
+	top:0;
+	text-align:center;
+	-webkit-transform-origin:0 0;
+	-moz-transform-origin:0 0;
+	-ms-transform-origin:0 0;
+	-o-transform-origin:0 0;
+	transform-origin:0 0;
+z-index: 1000000;
+}
+
+.captionskroll{
+position:fixed;	
+background: #FF0;
+font-size: 24px;
+border: 3px solid #333;
+padding: 25px;	
+	top:0;
+	text-align:center;
+	-webkit-transform-origin:0 0;
+	-moz-transform-origin:0 0;
+	-ms-transform-origin:0 0;
+	-o-transform-origin:0 0;
+	transform-origin:0 0;
+z-index: 1000;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.skrollr-desktop #scrollbar {display:none;}
+
+.thumbnail{
+padding: 10px;
+background: white;
+margin: 20px;
+}
+
+#bg1 {
+	z-index:50;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background: url('../images/Clouds.png');
+}
+
+#intro {
+   background: none repeat scroll 0 0 yellow;
+    left: 50%;
+    margin-left: -25%;
+    padding: 1em;
+    text-align: center;
+    top: 1em;
+    transform-origin: 0 0 0;
+    width: 50%;
+}
+
+#intro .arrows {
+	font-size:2em;
+	color:#09f;
+}
+
+#Stage1 {
+	width: 90%;
+	left:35%;
+	top:20%;
+	margin-left:-35%;
+	text-align:center;
+	font-size:150%;
+	.transform-origin(50%, 50%);
+}
+
+#car {
+	font-size: 150%;
+	right: 100%;
+	margin-left: 100%;
+	text-align: center;
+	width: 100%;
+	.transform-origin(0%, 50%);
+	border-bottom: 25px solid #333;
+}
+
+#Camera{
+bottom:0;	
+width: 80%;
+}
+
+#CameraFlash{
+background: white;	
+}
+
+#Stage2 {
+	width:100%;
+	height:100%;
+	padding-top:10%;
+	text-align:center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background:#930;
+}
+
+#Stage2 > img{
+margin-top: -100px;	
+}
+
+#Stage3 {
+	width:100%;
+	height:100%;
+	padding-top:10%;
+	text-align:center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: #3FF;
+}
+
+#Stage4{
+
+}
+
+#Stage4 > img{
+background: #CCC; 	
+}
+
+#Jeans{
+top:0;
+left:0;
+z-index:-50;	
+}
+
+#Bed{
+top:0;
+left:0;
+z-index:-50
+}
+
+#Stage7{
+background: #666;
+width: 100%;
+height:100%;	
+}
+
+#stage5studio{
+z-index: 200;	
+}
+
+#easing_wrapper {
+	width:100%;
+	height:100%;
+}
+
+#easing {
+	top:10%;
+	width:50%;
+	z-index:101;
+}
+
+#Stage5 {
+background: #0C9;	
+}
+
+#Stage5 img{
+
+}
+
+#Stage7{
+background: none repeat scroll 0 0 #603;
+}
+
+#Stage7 img{
+background: #603;	
+}
+
+#Stage8{
+background: url(../images/belkbkg.png) #039;
+width:100%;
+height:100%;
+}
+
+#end{
+background: #6F3; 	
+width:100%;
+height:100%;
+}
+
+.drop {
+	background:#09f;
+	font-weight:bold;
+	padding:1em;
+}
+
+#download {
+	width:80%;
+	left:10%;
+	height:80%;
+	padding:3em;
+	border:0 solid #222;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.twitter-share-button, .twitter-follow-button {
+	vertical-align:middle;
+}
+
+/** PRELOAD PAGE **/
+
+.content {display:none;}
+.preload { 
+width:500px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+	background: white;
+}
+
+.spinner {
+   font-size: 10px;
+    height: 500px;
+    margin: 100px auto;
+    text-align: center;
+    width: 350px;
+}
+
+.spinner > div {
+  animation: 1.2s ease-in-out 0s normal none infinite stretchdelay;
+    background-color: #3598db;
+    display: inline-block;
+    height: 100%;
+    width: 25px;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+
+/*
+ * This file is NOT needed in order to use skrollr.
+ * The demo uses it and it may help you as well.
+ */
+
+
+html, body {
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+	overflow-x:hidden;
+}
+
+.skrollable {
+	/*
+	 * First-level skrollables are positioned relative to window
+	 */
+	position:fixed;
+
+	/*
+	 * Skrollables by default have a z-index of 100 in order to make it easy to position elements in front/back without changing each skrollable
+	 */
+	z-index:100;
+}
+
+.skrollr-mobile .skrollable {
+	/*
+		May cause issues on Android default browser (see #331 on GitHub).
+	*/
+	position:absolute;
+}
+
+.skrollable .skrollable {
+	/*
+	 * Second-level skrollables are positioned relative their parent skrollable
+	 */
+	position:absolute;
+}
+
+.skrollable .skrollable .skrollable {
+	/*
+	 * Third-level (and below) skrollables are positioned static
+	 */
+	position:static;
+}
+
